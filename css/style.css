@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+	color:#9da6ac; 
+	background:#fff; 
+	font-size:20px; 
+	line-height:17px; 
+	font-family: 'Roboto', sans-serif;
+	padding:0; 
+	margin:0;
+
+}
+body {
+    color: aqua;
+    background: #fff;
+    font-size: 20px;
+    line-height: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+div, ul, li, a, span, p, h1, h2, h3, h4, h5, h6
+{
+	padding:0; 
+	margin:0; 
+	list-style:none;
+}
+ .spacer{clear:both;}
+/* img{width:100%; height:auto;}*/
+ a:hover{text-decoration:none;}
+ 
+div, p, h1, h2, h3, h4, h5, h6, table, td, tr, th, a 
+
+{
+	-webkit-transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+h2
+{
+	font-family: 'Anton', sans-serif;
+}
+
+header .top_header
+{
+	background-color: #ffcb0f;
+}
+
+.info
+{
+
+}
+.info ul
+{
+	list-style: none;
+}
+.info ul li
+{
+	display: inline-block;
+}
+
+.info ul li a
+{
+	padding: 10px;
+	display: block;
+	color: black;
+	font-size: 14px;
+}
+
+
+.social_icon
+{
+	text-align: right;
+}
+.social_icon ul
+{
+	list-style: none;
+}
+.social_icon ul li
+{
+	display: inline-block;
+}
+
+.social_icon ul li a
+{
+	padding: 8px;
+    display: block;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+
+.navbar-default {
+    background-color: #222533;
+    border-color: #e7e7e700;
+}
+.navbar {
+    border-radius: 0;
+    padding: 14px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #222533;
+}
+.navbar-default .navbar-nav>li>a
+{
+    color: #f1f1f1 !important;
+    background-color: transparent;
+}
+
+
+
+#banner
+{
+	background: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+	position: relative;
+}
+
+
+#banner .content
+{
+	text-align: center;
+}
+#banner .content h4
+{
+	font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+#banner .content h1
+{
+	font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 74px;
+    margin-bottom: 10px;
+}
+#banner .content h1 span
+{
+	color: #ffcb0f;
+}
+#banner .content p
+{
+	color: white;
+	margin-bottom: 16px;
+	padding: 0 200px;
+}
+
+.buttons a
+{
+    border: 0px solid;
+    background: #ffcb0f;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    margin: 0 20px;
+}
+.buttons
+{
+	margin-top: 50px;
+}
+
+
+
+#about .content
+{
+	padding: 60px 0;
+}
+#about .content h3
+{
+    color: #222533;
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+#about .content h1
+{
+	color: #ffcb0f;
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+}
+
+#about .content p
+{
+	color:  #222533;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+
+#choose
+{
+	background-color: #f2f7fa;
+	padding: 40px 0;
+}
+.tagline
+{
+	margin-bottom: 20px;
+}
+.tagline h1
+{
+	color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+.tagline p
+{
+	padding: 16px;
+	color: #545454;
+}
+
+#choose .single-box .content h3
+{
+	text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+}
+#choose .single-box .content p
+{
+	color: #484646;
+    font-size: 14px;
+}
+
+
+
+#service
+{
+	padding: 40px 0;
+}
+
+#service .single_service .content
+{
+    padding: 16px 0;
+}
+
+#service .single_service .content h3
+{
+	color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#service .single_service .content p
+{
+	font-size: 14px;
+    color: #505050;
+    margin-bottom: 20px;
+}
+
+#service .single_service .content a
+{
+	border: 0px solid;
+    background: #ffcb0f;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+
+
+#gallery
+{
+	background: url(../images/gallery_bg.jpg);
+	padding: 40px 0;
+}
+
+#gallery .gallery_bottom
+{
+    margin-bottom: 10px;
+}
+
+
+#gallery .col-md-6
+{
+	padding-left: 0 !important;
+}
+
+#gallery .img_width img
+{
+	width: 100%;
+}
+
+#gallery .big_img
+{
+    height: 458px;
+    width: 570px;
+}
+
+
+
+
+
+
+
+
+/***********Responsive**************/
+
+
+@media only screen and (max-width: 1200px)
+{
+	
+	
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width: 1024px) 
+{
+	
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width: 992px) 
+{
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width: 768px) 
+{
+	
+	
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+	
+	
+	
+}
+
+
+
+
+@media only screen and (max-width: 480px) 
+{
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 320px) 
+{
+	
+	
+	
+	
+}
+
+
+
+
+
